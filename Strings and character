@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+    char c;
+    char s[20];
+    char sen[30];
+    scanf("%c\n%s\n",&c,&s);
+    gets(sen);
+    printf("%c\n",c);
+    printf("%s\n",s);
+    printf("%s\n",sen);
+ return 0;
+}
