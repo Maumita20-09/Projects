@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class studentAverage{
+public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+int math,science,english;
+System.out.println("Enter marks for Math:");
+math=sc.nextInt();
+System.out.println("Enter marks for Science:");
+science=sc.nextInt();
+System.out.println("Enter marks for English:");
+english=sc.nextInt();
+double average=(math+science+english)/3.0;
+System.out.println("Average marks:"+average);
+sc.close();
+}
+}
