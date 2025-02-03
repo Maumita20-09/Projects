@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class RoomVolume {
+    public static void main(String[] args) {
+              Scanner sc = new Scanner(System.in);
+        double length,breadth,height;
+               System.out.print("Enter the length, breadth and height of the room in meters:");
+        length = sc.nextDouble();
+        breadth = sc.nextDouble();
+        height = sc.nextDouble();
+               double volume = length * breadth * height;
+               System.out.println("The volume of the room is: " + volume + "cubic meters " );
+               sc.close();
+    }
+}
