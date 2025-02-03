@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class greatest{
+public static void main(String[] args){
+Scanner sc=new Scanner (System.in);
+int a,b,c;
+System.out.println("Enter the 1st number:");
+a=sc.nextInt();
+System.out.println("Enter the 2nd number:");
+b=sc.nextInt();
+System.out.println("Enter the 3rd number:");
+c=sc.nextInt();
+if(a>b&&a>c){
+System.out.println("The 1st number is greatest:"+a);
+}
+else if(b>a&&b>c){
+System.out.println("The 2nd number is greatest:"+b);
+}
+else{
+System.out.println("The 3rd number is greatest:"+c);
+}
+sc.close();
+}
+}
