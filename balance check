@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Balancecheck{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+double accountBalance=15000.00;
+System.out.println("Enter the withdrawal amount:");
+double withdrawlAmount=sc.nextDouble();
+if(withdrawlAmount<= accountBalance){
+accountBalance -= withdrawlAmount;
+System.out.println("Withdraw successful New balance:"+accountBalance);
+}
+else{
+System.out.println("Insufficient funds. Please check your balance:");
+}
+sc.close();
+}
+}
