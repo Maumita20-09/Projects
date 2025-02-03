@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class studentDetails{
+public static void main(String[]args){
+Scanner sc=new Scanner (System.in);
+System.out.println("Enter the student name");
+System.out.print("Name(String):");
+String name=sc.nextLine();
+System.out.print("Age(byte):"); 
+byte age=sc.nextByte();
+System.out.print("Semester(short):");
+short semester=sc.nextShort();
+System.out.print("Student ID(int):");
+int studentid=sc.nextInt();
+System.out.print("Gender(char):");
+char gender=sc.next().charAt(0);
+System.out.print("Phone number(long):");
+long phno=sc.nextLong();
+System.out.print("Marks in Maths(float):");
+float maths=sc.nextFloat();
+System.out.print("Marks in Science(double):");
+double science=sc.nextDouble();
+System.out.print("Fees paid(true/false):");
+boolean fees=sc.nextBoolean();
+System.out.println("Name:"+name);
+System.out.println("Age:"+age);
+System.out.println("Gender:"+gender);
+System.out.println("Semester:"+semester);
+System.out.println("Student Id:"+studentid);
+System.out.println("Phone number:"+phno);
+System.out.println("Marks in Maths:"+maths);
+System.out.println("Marks in Science:"+science);
+System.out.println("Fees paid:"+fees);
+sc.close();
+}
+}
