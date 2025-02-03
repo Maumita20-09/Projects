@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class area{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+float a,b,h;
+System.out.println("Enter the base:");
+b=sc.nextFloat();
+System.out.println("Enter the height:");
+h=sc.nextFloat();
+a=(b*h)/2;
+System.out.println("The area of the triangle is:"+a);
+sc.close();
+}
+}
